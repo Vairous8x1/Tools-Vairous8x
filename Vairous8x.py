@@ -66,6 +66,7 @@ if name=="1":
             os.system('apt-get update -y')
             os.system('apt-get upgrade -y')
             os.system('pkg install proot-distro')
+            os.system('apt install proot-distro')
             os.system('proot-distro install ubuntu')
             os.system('clear')
             logoroot = '''
