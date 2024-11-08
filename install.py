@@ -13,6 +13,7 @@ print ("install  wget   [7]")
 print ("install  ruby   [8]")
 print ("install   go    [9]")
 print ("install   C     [10]")
+print ("install figlet  [11]")
 print (".......................")
 print (" \033[34;m      back   [99]")
 print ("\033[33;m")
@@ -47,6 +48,9 @@ if name == "9":
 if name == "10":
     import os
     os.system ("apt install clang -y")
+if name == "11":
+    import os
+    os.system ("pkg install figlet")
 if name == "99":
     import os
     os.system ("python back.py")
