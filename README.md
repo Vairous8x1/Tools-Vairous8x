@@ -5,9 +5,9 @@
   
 [+] pkg install git
 
-[+] git clone https://github.com/Vairous8x1/Tools-Vairous8x-.git
+[+] git clone https://github.com/Vairous8x1/Tools-Vairous8x-.git](https://github.com/Vairous8x1/Tools-Vairous8x.git
   
-[+] cd Tools-Vairous8x-
+[+] cd Tools-Vairous8x
   
 [+] python Vairous8x.py 
   
