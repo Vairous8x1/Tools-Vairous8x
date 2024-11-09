@@ -75,7 +75,7 @@ if name == "13":
     os.system ("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
     os.system("chmod +x metasploit.sh && ./metasploit.sh")
     os.system ("msfconsole")
-    os.system ("python back.py")
+#    os.system ("python back.py")
 if name == "12":
     import os
     os.system ("pkg install neofetch")
