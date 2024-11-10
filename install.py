@@ -67,14 +67,8 @@ if name == "11":
     os.system ("python back.py")
 if name == "13":
     import os
-    os.system ("apt update")
-    os.system ("N")
-    os.system ("apt upgrade -y")
-    os.system ("pkg install wget curl openssh git -y")
-    os.system ("apt install ncurses-utils")
-    os.system ("wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh")
-    os.system("chmod +x metasploit.sh && ./metasploit.sh")
-    os.system ("msfconsole")
+    os.system ("apt update && apt upgrade -y; apt install git -y; git clone https://github.com/sadamshr3be/metasploit_framework; cd metasploit_framework; -Metaspl*;bash setup;") 
+    os.system ("msfconsole") 
 #    os.system ("python back.py")
 if name == "12":
     import os
